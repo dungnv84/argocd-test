@@ -1,0 +1,5 @@
+yamlApplicationConfig:
+  kafka:
+    clusters:
+      - name: clusters
+        bootstrapServers: employee-kafka-broker-0-external.employee-infra.svc.cluster.local:9092,employee-kafka-broker-1-external.employee-infra.svc.cluster.local:9092,employee-kafka-broker-2-external.employee-infra.svc.cluster.local:9092
